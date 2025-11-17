@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Contact - Practice 8</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="./app.js"></script>
+</head>
+<body>
+    
+    <div id="app">
+        <strong>A simple QR VCard Generator</strong>
+        
+        <div>
+            
+            <label for="qrName">Name</label>
+            <input type="text" id="qrName"/><br>
+
+            <label for="qrPhone">Phone</label>
+            <input type="text" id="qrPhone"/><br>
+
+            <label for="qrEmail">Email</label>
+            <input type="text" id="qrEmail"/><br>
+            
+            <button type="button" id="qrGenerate">Generate QR</button>
+
+        </div>
+
+        <div id="qrImage-container">
+
+            <img id="qrImage">
+
+        </div>
+
+        <div id="about">
+            <p>Practice 8 - INF517</p>
+            <p>Anthony Ciprian</p>
+            <p>Docente: Radhames Silverio</p>
+        </div>
+        
+
+    </div>
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode/1.5.1/qrcode.js" integrity="sha512-hAz8pxm1kva4chZWPXQhGehvvlIj1Loka653sQXoYHNj4sgSukoR3ZKyHEOT7kFGVW17wUqD9CbKeviIJ2XFKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
